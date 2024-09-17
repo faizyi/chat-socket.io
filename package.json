@@ -1,0 +1,21 @@
+{
+  "name": "socket.io-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "socket.io.js",
+  "scripts": {
+    "start": "node socket.io.js",
+    "dev": "nodemon socket.io.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5"
+  }
+}
